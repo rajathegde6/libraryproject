@@ -1,0 +1,396 @@
+.logo
+{
+  display: block;
+  margin-left: 50px;
+  width: 20%;
+}
+.topnav{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+
+
+  background-color:White;
+}
+.nav-item{
+    display: flex;
+  margin-left:30px;
+  float:left;
+}
+
+.nav-item a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 6px 6px;
+  text-decoration: none;
+}
+.nav-item a:hover:not(.active) {
+  background-color:white;
+  font-weight:bold;
+}
+.back {
+  position: relative;
+}
+.topright
+{
+  position:absolute;
+  top:2px;
+  right:5px;
+}
+.topleft
+{
+  width:350px;
+  height:auto;
+  background-color:#fff;
+  border-left: solid 3px #ddd;
+  border-right: solid 3px #ddd;
+  border-top: solid 3px #ddd;
+  border-bottom: solid 3px #ddd;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  opacity:0.9;
+}
+.image2
+{
+  width:98%;
+  height:auto;
+}
+.image1
+{
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  width:100%;
+  height:250px;
+  opacity:7.5;
+}
+input[type=Search]
+{
+  border-radius: 3px;
+  outline: none;
+  margin-left:1px;
+  width: 180px;
+  height: 40px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.select
+{
+  margin-left:1px;
+  width: 150px;
+  height:40px;
+  padding: 8px 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:5%;
+  color:#010059;
+  font-weight: bold;
+  font-style: oblique;
+}
+.select1
+{
+  width: 110px;
+  height:40px;
+  padding: 8px 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:5%;
+  color:brown;
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.dog
+{
+   font-size: 35px;
+   color: #5b2466;
+   line-height: 1.25;
+   font-family: "EB Garamond",serif,Georgia,"Times New Roman",Times,serif;
+   font-weight: normal;
+}
+.panel-body
+{
+  border: 1px solid #ddd;
+}
+.nav-tabs
+{
+  width: 610px;
+  height:40px;
+}
+
+.nan{
+  float:right;
+}
+a{
+  color: black;
+}
+.active
+{
+  border: 2px solid white;
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+#login
+{
+    margin-top: 58px;
+}
+.dropdown {
+    position: center;
+    display: inline-block;
+  }
+  .dropdown-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    background-color:white;
+   margin-left: 50px;
+   width: 500px;
+   padding: 20px 10px;
+    z-index: 1;
+
+  }
+  .dropdown-menu
+  {
+    position:relative;
+
+  }
+
+
+.dropdown:hover .dropdown-menu
+  {
+    margin-top: 0px;
+    display: block;
+    border-radius: 12px;
+   box-shadow: 1px 2px grey;
+  }
+.no-dot{
+  list-style-type: none;
+  display:flex;
+  justify-content: center;
+}
+#navbtn
+{
+    border-style: none;
+    width: 96px;
+    height:40px;
+   font-family:sans-serif;
+    outline: none;
+
+}
+
+#navbtn:hover
+{
+  border-bottom: solid 3px;
+  border-radius: 8px;
+  font-weight: bold;
+  border-bottom: 4px solid;
+}
+#navbtn:hover
+{
+  border-color: brown;
+
+}
+
+.dropdown-menu
+{
+  position:absolute;
+}
+.dropdown-header
+{
+  font-weight: 500;
+  color:brown;
+  font-size: 15px;
+  border-left: 3px solid;
+}
+.btnn:hover
+{
+  border-bottom: solid 4px brown;
+  border-radius: 12px;
+}
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #eeecea;
+  width: 18%;
+  height: auto;
+  border-style: none;
+ margin-left: 30px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 15px 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition:0.3s;
+  font-size: 17px;
+  font-family: "Helvetica Neue",Helvetica;
+color:#215c5f;
+}
+
+/* Change background color of buttons on hover */
+
+
+/* Create an active/current "tab button" class */
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  color: black;
+  font-family: "Calibri",sans-serif;
+  border-style: none;
+}
+
+
+.nav i{
+  position: absolute;
+  margin-top: 5px;
+margin-left: 4px;
+}
+.tab button:hover i{
+  margin-left:8px;
+  transition: 0.7s;
+}
+.btn-success
+{
+    background-color: white;
+    color: darkgreen;
+    align-items: center;
+    outline-color: green;
+}
+b{color:#215c5f;}
+.tabcontent h2{
+  font-size:50px;
+  font-family: "EB Garamond",serif,Georgia,"Times New Roman",Times,serif;
+  position: absolute;
+margin-top:-50px
+  margin-left:170px;
+  color: white;
+}
+#toggle{display: none;}
+.tabcontent p{
+padding-top:20px;  padding-left:20px;font-size: 20px;
+}
+.font
+{
+font-size:38px;
+font-family: "EB Garamond",serif,Georgia,"Times New Roman",Times,serif;
+}
+
+.togglearea{
+  padding-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  display:none;
+  background-color: white;
+}
+.togglearea label{
+
+  background-color: brown;
+display:flex;
+height:45px;
+width:50px;
+color:black;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+border-radius: 5%;
+}
+.togglearea label span
+{background-color:white;height:3px;width:80%;margin-top: 5px;
+}
+@media screen and (max-width:600px){
+  .topnav
+  {
+    flex-direction: column;justify-content: center;display: none;
+  }
+  #toggle:checked + .topnav
+  {
+    display: flex;
+  }
+  .togglearea{display: flex;}
+  .select1{width:110px;font-size: 15px;}
+  .select{width:100px; font-size: 13px;}
+    input[type=Search]{width:80px;}
+.tabcontent h2{	position:relative;margin-top:auto; font-size:20px;}
+	.topright{
+
+		top:90px;
+		left:10px;
+
+	}
+	.topleft{
+		left:calc(50% - 175px);
+	}
+  .no-dot{flex-direction: column;justify-content: center;padding-left: 80px;}
+  .fas{padding-left:20px; }
+}
+  .col-lg-3{width:auto;align-items: center;}  .tabcontent img{width:200px;height:auto;
+}
+
+.tab{margin-left:auto;width:25%;}
+
+.resources{width:250px;height:auto;}
+
+.services{width:250px;height:auto;}
+.about{width:200px;height:auto;}
+
+}
+
+@media screen and (min-width:600px) and (max-width:1000px){
+
+  .slider{
+		width:100%;
+	}
+	.topright{
+		top:150px;
+		left:calc(50% - 250px);
+	}
+	.topleft{
+		left:calc(50% - 175px);
+	}
+  .tabcontent h2{font-size: 40px;	right:calc(50%+10px );
+}
+.resources{width:600px;height:auto;}
+.services{width:600px;height:auto;}
+.about{width:400px;height:auto;}
+
+
+}
+@media screen and (min-width:1000px){
+	.topright{
+		top:50px;
+		right:5px;
+	}
+	.topleft{
+		top:50px;
+		left:5px;
+	}
+  .dropdown-menu{
+  	left:calc(50% - 175px);}
+    .tab{width:20%;}
+    .resources{width:600px;height:auto;}
+    .services{width:800px;height:auto;}
+    .about{width:400px;height:auto;}
+
+}
